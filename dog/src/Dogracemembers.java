@@ -5,10 +5,10 @@ public class Dogracemembers {
     private final String age;
     private final String speed;
     //②用意した変数に値を定義
-    public Dogracemembers(String name, String age, String runningspeed){
-        this.name = "name";
-        this.age =  "age";
-        this.speed = "speed";
+    public Dogracemembers(String name, String age, String speed){
+        this.name = name;
+        this.age =  age;
+        this.speed = speed;
     }
     public String getName(){return name;}
     public String getAge(){return age;}
